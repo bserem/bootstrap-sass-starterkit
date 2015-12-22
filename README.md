@@ -17,7 +17,7 @@ preprocessor.
 ## Requirements {#requirements}
 This starter theme assumes that you have:
 - An understanding of SASS and web programming.
-- [Drupal Bootstrap Theme]: https://www.drupal.org/project/bootstrap in your themes folder (This is based off of this theme)
+- [Drupal Bootstrap Theme]: https://www.drupal.org/project/bootstrap
 - A SASS Compiler for Compiling:
 -- Option 1 - Compass/Ruby on Rails. 
 -- Option 2 - NPM (Node Package Manager) and Bower.  
