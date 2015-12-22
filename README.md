@@ -9,7 +9,8 @@ preprocessor.
 
 - [Requirements](#requirements)
 - [Setup](#setup)
-- [Using NPM, Bower & Grunt](#npm)
+- [Compiling - Using Compass/Sass](#compass)
+- [Compiling - Using NPM, Bower & Grunt](#npm)
 - [Override Styles](#styles)
 - [Override Settings](#settings)
 - [Override Templates and Theme Functions](#registry)
@@ -34,6 +35,12 @@ Download this project into your sites/all/themes folder of your Drupal installat
 
 - Option 2 - (NPM) If you are using Node.js run `npm install` and then `bower install` to setup your project files. Then run `grunt copy` to copy bootstrap files into the correrct bootstrap-sass directory.
 
+## Using NPM, Bower & Grunt in workflow {#compass}
+
+Next run `compass` to compile SASS for the first time into the css folder.
+
+After you've run the initial `compass` you can then use `compass watch` to continuously watch
+the sass files for changes.
 
 ## Using NPM, Bower & Grunt in workflow {#npm}
 
