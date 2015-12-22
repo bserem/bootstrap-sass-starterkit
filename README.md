@@ -17,7 +17,7 @@ preprocessor.
 ## Requirements {#requirements}
 This starter theme assumes that you have:
 - An understanding of SASS and web programming.
-- Drupal Bootstrap Theme]: https://www.drupal.org/project/bootstrap in your themes folder (This is based off of this theme)
+- [Drupal Bootstrap Theme]: https://www.drupal.org/project/bootstrap in your themes folder (This is based off of this theme)
 - A SASS Compiler for Compiling:
 -- Option 1 - Compass/Ruby on Rails. 
 -- Option 2 - NPM (Node Package Manager) and Bower.  
@@ -50,7 +50,7 @@ Framework].
 
 The `./subtheme/sass/_bootstrap.scss` file is nearly an exact copy from the
 [Bootstrap Framework Source Files]. The only difference is that it injects the
-`_variable-overrides.scss` file directly after it has imported the[Bootstrap
+`_variable-overrides.scss` file directly before it has imported the[Bootstrap
 Framework]'s `_variables.scss` file. This allows you to easily override variables
 without having to constantly keep up with newer or missing variables during an
 upgrade.
