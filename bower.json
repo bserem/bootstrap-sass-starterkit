@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap_starter_theme",
+  "description": "A starter theme for Drupal",
+  "main": "",
+  "authors": [
+    "Wesley Render <wrender@git.drupal.org>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "www.otherdata.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}
