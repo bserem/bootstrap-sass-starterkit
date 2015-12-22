@@ -7,34 +7,35 @@
 Below are instructions on how to create a Bootstrap sub-theme using a SASS
 preprocessor.
 
-- [Prerequisites](#prerequisites)
-- [Additional Setup](#setup)
+- [Requirements](#requirements)
+- [Setup](#setup)
 - [Using NPM, Bower & Grunt](#npm)
 - [Override Styles](#styles)
 - [Override Settings](#settings)
 - [Override Templates and Theme Functions](#registry)
 
-## Prerequisites
-- Read the @link getting_started Getting Started @endlink documentation topic.
-- You must understand the basic concept of using the [SASS] CSS pre-processor.
-- You must use a **[local SASS compiler](https://www.google.com/search?q=sass+compiler)**.
-- To use the NPM, Bower and Grunt method you must have NPM, and Bower installed on your
-  server/development environment.
-- You must use the [Bootstrap Framework Source Files] ending in the `.scss`
-  extension, not files ending in `.css`.
+## Requirements {#requirements}
+This starter theme assumes that you have:
+- An understanding of SASS and web programming.
+- Drupal Bootstrap Theme]: https://www.drupal.org/project/bootstrap in your themes folder (This is based off of this theme)
+- A SASS Compiler for Compiling:
+-- Option 1 - Compass/Ruby on Rails. 
+-- Option 2 - NPM (Node Package Manager) and Bower.  
 
-## Additional Setup {#setup}
-Download and extract the **latest** [Bootstrap Sass Framework Source Files] into your
-new sub-theme. After it has been extracted, the folder should read `./subtheme/bootstrap-sass`.
+
+## Setup {#setup}
+Download this project into your sites/all/themes folder of your Drupal installation.
+
+- Option 1 - (Compass) If you are using Compass or Sass command as your Sass compiler Download and extract the **latest** [Bootstrap Sass Framework Source Files] into your new sub-theme. After it has been extracted, the folder should read `./subtheme/bootstrap-sass/assets/`.
 
 {.alert.alert-warning} **WARNING:** Do not modify the files inside of
 `./subtheme/bootstrap-sass` directly. Doing so may cause issues when upgrading the
 [Bootstrap Framework] in the future.
 
-## Using NPM, Bower & Grunt in workflow {#npm}
-Run `npm install` and then `bower install` to setup your project files.
+- Option 2 - (NPM) If you are using Node.js run `npm install` and then `bower install` to setup your project files. Then run `grunt copy` to copy bootstrap files into the correrct bootstrap-sass directory.
 
-Run `grunt copy` to copy bootstrap files into the correrct bootstrap-sass directory.
+
+## Using NPM, Bower & Grunt in workflow {#npm}
 
 Next run `grunt` to compile SASS for the first time into the css folder.
 
