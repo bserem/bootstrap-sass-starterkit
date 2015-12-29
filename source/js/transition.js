@@ -1,0 +1,1 @@
+../bootstrap-sass/assets/javascripts/bootstrap/transition.js

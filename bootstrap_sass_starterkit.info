@@ -24,25 +24,37 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = css/style.css
+stylesheets[all][] = dist/css/style.css
 
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
 
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/affix.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/alert.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/button.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/carousel.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/collapse.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/dropdown.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/modal.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/tooltip.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/popover.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/tab.js'
-scripts[] = 'bootstrap-sass/assets/javascripts/bootstrap/transition.js'
+scripts[] = 'dist/js/main.js'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Breakpoints
+;;;;;;;;;;;;;;;;;;;;;
+breakpoints[screen-xs-max] = (max-width: 767px)
+breakpoints[screen-sm-min] = (min-width: 768px)
+breakpoints[screen-sm-max] = (max-width: 991px)
+breakpoints[screen-md-min] = (min-width: 992px)
+breakpoints[screen-md-max] = (max-width: 1199px)
+breakpoints[screen-lg-min] = (min-width: 1200px)
+; Multipiers
+multipliers[screen-xs-max][] = 1.5x
+multipliers[screen-xs-max][] = 2x
+multipliers[screen-sm-min][] = 1.5x
+multipliers[screen-sm-min][] = 2x
+multipliers[screen-sm-max][] = 1.5x
+multipliers[screen-sm-max][] = 2x
+multipliers[screen-md-min][] = 1.5x
+multipliers[screen-md-min][] = 2x
+multipliers[screen-md-max][] = 1.5x
+multipliers[screen-md-max][] = 2x
+multipliers[screen-lg-min][] = 1.5x
+multipliers[screen-lg-min][] = 2x
 
 ; Disable BootstrapCDN so the compiled SASS source files can be used.
 settings[bootstrap_cdn] = ''

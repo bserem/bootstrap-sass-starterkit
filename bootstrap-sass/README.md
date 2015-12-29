@@ -1,1 +1,0 @@
-<!-- You have to download bootstrap-sass (https://github.com/twbs/bootstrap-sass) and put it here! -->
